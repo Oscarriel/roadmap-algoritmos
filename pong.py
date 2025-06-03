@@ -69,4 +69,4 @@ while True:
     mover_jugadores(teclas)
     mover_pelota()
     dibujar()
-    RELOJ.tick(60)
+    RELOJ.tick(120)

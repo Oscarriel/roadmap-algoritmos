@@ -9,11 +9,14 @@
 #     [7, 8, 9]
 # ]
 # Luego, muestra el primer elemento de la segunda fila (debería ser 4 en el ejemplo).
-
+matriz =[[1,2,3],[4,5,6],[7,8,9]]
+print(matriz[0][0])
 # 2. Tuplas
 # Crea una tupla que contenga tres elementos: nombre (str), edad (int), y país (str).
 # Por ejemplo: persona = ("Juan", 25, "Chile")
 # Luego, muestra el segundo valor de la tupla (la edad).
+tupla= ("Juan", 35, "Chile")
+print(tupla[1])
 
 # 3. Diccionarios
 # Crea un diccionario con las claves: "nombre", "edad", y "carrera".
@@ -21,3 +24,5 @@
 # Luego:
 # - Muestra el valor asociado a la clave "nombre".
 # - Muestra todas las claves y valores del diccionario.
+dicc ={"Nombre": "Ana", "Edad": 22, "Carrera": "Ingenieria"} 
+print(dicc.items())
