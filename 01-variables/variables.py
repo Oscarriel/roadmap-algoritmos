@@ -25,3 +25,17 @@
 # print(es_estudiante)
 
 # ¡Ahora es tu turno! Declara tus propias variables y pruébalas con print().
+nombre = "Oscar"
+edad = 19
+altura = 1.73
+es_estudiante = True
+
+print(nombre)
+print(edad)
+print(altura)
+print(es_estudiante)
+
+print(type(nombre))
+print(type(edad))
+print(type(altura))
+print(type(es_estudiante))

@@ -39,3 +39,19 @@
 # print("¿Son iguales?", es_igual)
 
 # Espacio para que el estudiante complete las operaciones y muestre los resultados.
+notas = []
+cantidad = int(input("¿Cuantas notas deseas ingresar? :"))
+for i in range(cantidad):
+    nota= float(input(f"Inserta la nota numero {i+1}: "))
+    notas.append(nota)
+print("Notas del curso: ", end="")
+for nota in notas:
+    print(f"{nota} ", end=", ")
+promedio= sum(notas)/len(notas)
+print()
+print(f"El promedio del curso es de {promedio}")
+if promedio >= 4:
+    print(f"El estudiante aprobo el curso con promedio {promedio}")
+else:
+    print(f"El promedio de curso {promedio}, no es suficiente para aprobar el curso")
+
