@@ -30,23 +30,17 @@
 # Estructura inicial del código:
 
 # Paso 1: Pedir al usuario que ingrese un número
- numero = int(input("Ingresa un número: "))
+numero = int(input("Ingresa un número: "))
+if numero > 0:
+    print(f"El numero {numero}, es mayor")
+elif numero > 0:
+    print(f"El numero {numero}, es menor")
+else:
+    print("El numero es 0")
 
-# Paso 2: Determinar si el número es positivo, negativo o cero
- if numero > 0:
-    print("El numero es may")
-#     # Escribe aquí el código para el caso de un número positivo
- elif numero < 0:
-#     # Escribe aquí el código para el caso de un número negativo
- else:
-    
-#     # Escribe aquí el código para el caso de que el número sea cero
-
-# Paso 3: Determinar si el número es par o impar
-# if ...:
-#     # Escribe aquí el código para el caso de un número par
-# else:
-#     # Escribe aquí el código para el caso de un número impar
-
+if numero % 2 == 0:
+    print("El numero es par")
+else:
+    print("El numero es impar")
 # ¡Ahora completa el código siguiendo las instrucciones y experimenta con diferentes números!
 
